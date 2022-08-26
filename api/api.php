@@ -1,8 +1,8 @@
 <?php
 namespace PHPMailer;
 
-require_once("PHPMailer/PHPMailer.php");
-require_once("PHPMailer/class.smtp.php");
+require_once("api/PHPMailer/PHPMailer.php");
+require_once("api/PHPMailer/class.smtp.php");
 
 $mail = new PHPMailer();
 $mail->SMTPDebug = 1;
