@@ -14,9 +14,9 @@ $mail->Port = 465;
 $mail->CharSet = 'UTF-8';
 
 //这里需要自己配置
-$mail->Username = '';  //邮箱账号
-$mail->Password = '';    //邮箱密码，QQ邮箱是授权码
-$mail->From = '';      //邮箱地址
+$mail->Username = '2784860593@qq.com';  //邮箱账号
+$mail->Password = 'yxvuyjoynhuwdhde';    //邮箱密码，QQ邮箱是授权码
+$mail->From = '@qq.com';      //邮箱地址
 
 //这里是提交的内容
 $content=$_GET['content'];  //邮件内容
